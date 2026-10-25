@@ -1,0 +1,22 @@
+# Python & local build files
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+.streamlit/secrets.toml
+
+# Never publish raw provided weather data
+/data/
+/gps/
+/stations.csv
+/maintenance_log.md
+**/ridgeline_extracted/
+**/ridgeline_data_pack*/
+**/*data_pack*.zip
+*.zip
+
+# Optional local results / caches
+*.log
+.env
